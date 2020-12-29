@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Test02Task03
+{
+  public static void main (string[] args){
+    Scanner mine= new Scanner(System.in);
+    System.out.println("enter a number");
+    int input1 = mine.next.Int;
+     System.out.println("enter a number");
+     int input2 = mine.next.Int;
+     System.out.println("a="+ input2);
+     System.out.println("b=" + input1);
+  }
+}

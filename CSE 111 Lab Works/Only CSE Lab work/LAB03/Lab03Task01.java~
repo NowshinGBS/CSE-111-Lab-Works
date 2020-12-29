@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Lab03Task03
+{
+  public static void main (String[] args){
+    Scanner mine = new Scanner(System.in)
+    system.out.println("enter a word")
+      
+    Sting s = mine.nextLine();
+    int letternum = s.length;
+    system.out.println(letternum)
+  }
+}

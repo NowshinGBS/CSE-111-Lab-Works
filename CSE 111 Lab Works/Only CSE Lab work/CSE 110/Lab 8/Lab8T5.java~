@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Lab8T5
+{
+    public static void main(String[]args)
+    {
+        Scanner k = new Scanner(System.in);
+        int a[];
+        a=new int[3];
+        for(int c=0;c<a.length;c++)
+        {
+            System.out.println("Type a number");
+            a[c]=k.nextInt();
+        }
+        System.out.println("Type another number");
+        int x=k.nextInt();
+        for(int d=0;d<a.length;d++)
+        {
+            if(x==a[d])
+            {
+                System.out.println("Yes");
+            }
+            else
+            {
+                System.out.println("No");
+            }
+        }
+    }
+}

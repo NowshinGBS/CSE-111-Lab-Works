@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class lab3task2
+{
+public static void main(String []args)
+{
+Scanner sc=new Scanner(System.in);
+int a[]= int [10];
+for (int c=0; c<=9; c++)
+{
+System.out.println("Type a number")
+  a[c]=sc.nextInt();
+c=0,
+ while (c<=9)
+{
+System.out.println("You have entered"," ",a[c]);
+c++;
+}
+}
+}
+}

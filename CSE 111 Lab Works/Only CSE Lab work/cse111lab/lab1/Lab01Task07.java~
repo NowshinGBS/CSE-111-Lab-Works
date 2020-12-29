@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Lab01Task07
+{
+  public static void main (String[] args)
+  {
+    Scanner sc=new Scanner(System.in);
+    int line=sc.nextInt();
+    
+    int linecount;
+    for(linecount=1;linecount<=line;linecount++)
+    {
+      int columncount;
+      for(columncount=1;columncount<=line+1;columncount++)
+        
+        
+        if(linecount==1  || columncount==1 || linecount==line || columncount==line+1)
+      {
+        System.out.print("*");
+      }
+      
+      else
+      {
+        System.out.print(" ");
+      }
+      System.out.println();
+    }
+  }
+}

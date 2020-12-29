@@ -1,0 +1,21 @@
+import java.util.Sacnner;
+public class Lab01Task13
+{
+  public static void main (String [] args)
+  {
+  Scanner fr=new Sacnner(System.in);
+  int num1=fr.nextInt();
+  int num2=fr.nextInt();
+  
+  int c;
+  for(c=1;c<=num1;c++)
+  {
+    int a;
+    for(a=1;a<=num2;a++)
+    {
+  System.out.print(c);
+    }
+    System.out.println();
+  }
+  }
+}

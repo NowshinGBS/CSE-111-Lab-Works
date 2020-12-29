@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Lab7T7
+{
+    public static void main(String[]args)
+    {
+        Scanner k = new Scanner(System.in);
+        int a[],max,c,d;
+        a= new int[5];
+        for(c=0;c<=a.length-1;c++)
+        {
+            System.out.println("Type a number");
+            a[c]=k.nextInt();
+        }
+        max=a[0];
+        for(d=0;d<=a.length-1;d++)
+        {
+            if(max>a[d])
+            {
+                max=a[d];
+            }
+        }
+        System.out.println("Max is: " +max);
+    }
+}

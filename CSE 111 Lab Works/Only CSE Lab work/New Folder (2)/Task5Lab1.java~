@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Task5Lab1
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Please enter line number");
+        int line=sc.nextInt();
+        int num = line;
+        int linecount=1;
+        while(linecount<=line)
+        {
+            int spacecount=1;
+            while(spacecount<=line-linecount)
+            {
+              System.out.print(" ");
+              spacecount++;
+            }
+            int colcount=num;
+            while(colcount<=spacecount*2-1)
+            {
+                System.out.print("*");
+                colcount++;
+            }
+            num--;
+            System.out.println();
+            linecount++;
+        }
+    }
+}

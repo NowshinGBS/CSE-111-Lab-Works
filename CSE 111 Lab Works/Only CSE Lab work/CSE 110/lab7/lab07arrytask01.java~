@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class lab07arrytask01
+{
+  public static void main(String[] args)
+  {
+    Scanner sc=new Scanner(System.in);
+    int[] a=new int[3];
+    //input
+    int count=0;
+    while(count<a.lenth)
+    {
+      a[count]=sc.nextInt();
+      sum=sum+a
+      count++;
+    }
+    int i=0;
+    while(i<a.lenth);
+    {
+      System.out.println(sum);
+     int i=0;
+     while(i<a.lenth)
+     {
+       System.out.print(a[i]);
+       i++
+     }
+     
+    }
+    
+  }
+}

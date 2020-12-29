@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Lab_03Task2
+{
+  public static void main(String []args)
+  {
+    Scanner sc=new Scanner(System.in);
+    int a[]=new int [10];
+    for (int c=0; c<=9; c++)
+    {
+      System.out.print("Type a number");
+      
+      a[c]=sc.nextInt();
+      
+      
+      System.out.print("You have entered"+" ");
+      
+      for(int b=0; b<=c; b++)
+      {
+        System.out.print(a[b]+" ");
+      
+      if (b==c)
+      {
+       System.out.println(".");
+    }
+      else
+      {
+      System.out.print(",");
+      }
+   }
+  }
+}
+}

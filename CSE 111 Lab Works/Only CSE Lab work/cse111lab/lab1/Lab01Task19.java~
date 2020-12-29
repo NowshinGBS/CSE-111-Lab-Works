@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Lab01Task19
+{
+public static void main(String [] args)
+{
+Scanner fr=new Scanner(System.in);
+int line=fr.nextInt();
+
+int linecount;
+for()
+}
+}

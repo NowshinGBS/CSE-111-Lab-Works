@@ -1,0 +1,20 @@
+public class VehicleUser
+{
+  public static void main(String[] args)
+  {
+    Vehicle v1= new Vehicle();
+    Vehicle v2= new Vehicle();
+    System.out.println(v1.toString);
+    v1.moveUp();
+    
+    System.out.println(v1.toString);
+v1.moveLeft();
+    
+    System.out.println(v2.toString);
+    v2.moveDown();
+    
+    System.out.println(v2.toString);
+  v2.moveRight();
+    
+  }
+}

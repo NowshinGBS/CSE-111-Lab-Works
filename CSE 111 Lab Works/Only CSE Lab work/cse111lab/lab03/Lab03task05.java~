@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Lab03task05
+{
+public static void main (Sring[] args)
+{
+Scanner fr=new Scanner(System.in);
+String word1 = fr.nextLine();
+String word2 = fr.nextLine();
+
+String word3= word1 + word2;
+System.out.println(word3);
+}
+}

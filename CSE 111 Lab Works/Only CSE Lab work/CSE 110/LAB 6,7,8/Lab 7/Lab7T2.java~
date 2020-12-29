@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Lab7T2
+{
+    Scanner k = new Scanner(System.in);
+    int x,c,d,a[];
+    a = new in6t[10];
+    for(c=0;c<=a.length-1;c++)
+    {
+        System.out.println("Type a number");
+        a[c]==k.nextInt();
+    }
+    System.out.println("Type a number between 0-9");
+    d=k.nextInt();
+    System.out.println(a[d]);
+}

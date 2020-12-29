@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class lab3task1
+{
+public static void main
+{
+Scanner sc=new Scanner(System.in);
+int a[]= new int [10];
+for (int c=0; c<=10; c++)
+{
+System.out.println("Type a number");
+a[c]=sc.nextInt();
+}
+
+for (int b=10; b>0; b--)
+{
+Sytem.out.println(a[b]);
+}
+}
+}

@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Lab03Task01
+{
+  public static void main (String [] args)
+  {
+    Scanner fr= new Scanner(System.in);
+    String a= fr.nextLine();
+    char [] ab = a.toCharArray();
+    System.out.println(a.leangth());
+  }
+}

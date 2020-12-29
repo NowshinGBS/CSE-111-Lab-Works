@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class lab07task02
+{
+  public static void main(String[] args)
+  {
+    Scanner sc=new Scanner(System.in);
+    int[] a=new int[10];
+    int counr=0;
+    while(count<a.length)
+    {
+      a[count]=sc.nextInt();
+      count++;
+    }
+    System.out.println("enter a number");
+    int p = sc.nextInt();
+    System.out.println(a[p]);
+  }
+}
+
+    

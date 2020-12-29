@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Lab8T7
+{
+    public Static void main(String[]args)
+    {
+        Scanner k =new Scanner(System.in);
+        int a[];
+        a=new int[10];
+        for(int c=0;c<a.length;c++)
+        {
+            System.out.println("Type a number");
+            a[c]=k.nextInt();
+            for(int d=0<a.length;d++)
+            {
+                System.out.print(a[d]);
+                System.out.println();
+            }
+        }
+    }
+}

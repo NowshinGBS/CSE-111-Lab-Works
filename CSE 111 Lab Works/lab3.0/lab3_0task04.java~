@@ -1,0 +1,37 @@
+import java.util.Scanner;
+public class lab3_0task04
+{
+  public static void main(string[] args)
+  {
+    Scanner fr= new Scanner(System.in);
+    int [] a= new int [5];
+    int i;
+    int i; 
+    for(i=0; i<=4; i++)
+    {
+      int j=0;
+      for(int c=0; c<=a.length-1; c++)
+      {
+        if(a[c]==i)
+        {
+          j=j+1;
+          if(j!=0)
+          {
+            System.out.println("You can't enter this number again");
+            else
+            {
+              a[c]=fr.nextInt();
+            }
+          }
+          else
+          {
+          }
+        }
+      }
+      int d;
+      for(d=0; d<=a.length-1; d++)
+      {
+        System.out.println(a[d]);
+      }
+    }
+  }

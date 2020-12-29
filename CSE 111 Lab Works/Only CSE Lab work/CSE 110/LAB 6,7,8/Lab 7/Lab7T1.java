@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Lab7T1
+{
+    public static void main(String[]args)
+    {
+        Scanner k = new Scanner (System.in);
+        int a[];
+        a = new int[3];
+        int sum=0;
+        int c=0;
+        for( c=0;c<=a.length-1;c++)
+        {
+            System.out.println("Type a number");
+            a[c]=k.nextInt();
+            sum=sum+a[c];
+            
+        }
+        System.out.println("Sum is: " +sum);
+        for(c=0;c<=a.length-1;c++)
+        {
+            System.out.print((c+1) +" number is: " +a[c]);
+            System.out.println();
+        }
+    }
+}
