@@ -1,5 +1,0 @@
-Use only the Scanner class for taking input.
-
-use of JOptionPane or SimpleInput is not allowed.
-
-Join the google group for this semester. Ask your lab teacher for the address.
